@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+.trs-header {
+	padding:2rem 9%;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.trs-header:hover{
+	background-color: #006666;
+    transition: background 0.3s;
+}
+
+.trs-div-header {
+	width: 320%;
+	background-color: transparent;
+	color: black;
+}
+
+.trs-div-header ul li a{
+	font-weight:600;
+	color: black;
+}
+
+
+.home-content-wrapper {
+	background-image:
+		url('/E-Health-Care/images/v870-tang-31.jpg');
+	background-size: cover;
+}
+
+.overlay-box {
+	padding: 194px 0px;
+	box-sizing: border-box;
+	/*background: rgba(0, 0, 0, 0.5);*/
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.welcome-text {
+	color: #FFF;
+	font-size: 75px;
+	font-family: raleway-bold;
+	line-height: 90px;
+}
+
+.header-text {
+	font-family: Georgia;
+	color: rgb(32 73 115/ 90%);
+	font-size: 26px;
+}
+

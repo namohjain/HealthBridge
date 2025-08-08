@@ -1,0 +1,163 @@
+.pose
+{
+	position: absolute;
+	width: 504px;
+	height: 696px;
+	left: 575px;
+	top:45px;
+}
+.frame
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 1px 0px;
+	gap: 60px;
+	
+	position: absolute;
+	width: 810px;
+	height: 451px;
+	left: 200px;
+	top: 194px;
+}
+.title1
+{
+	width: 500px;
+	height: 84px;
+	font-family: 'Plus Jakarta Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 120px;
+	line-height: 84px;
+	
+	color:#3D3D3E;
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.title2
+{
+	width: 810px;
+	height: 70px;
+	
+	font-family: 'Plus Jakarta Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 100px;
+	line-height: 84px;
+	
+	color:#2D89FF;
+	
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.quote
+{
+	width: 581px;
+height: 38px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+
+
+color: #737373;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.frame5{
+	width: 495px;
+	height: 165px;
+	
+	border-radius: 35px;
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+.frame52
+{
+	/* Frame 52 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 418px;
+height: 167px;
+left: 20px;
+top: 20px;
+}
+.rect22
+{
+	box-sizing: border-box;
+
+position: absolute;
+left: 5%;
+    right: 62%;
+    top: 4.53%;
+    bottom: 2.12%;
+
+background: rgba(45, 137, 255, 0.11);
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 35px;
+}
+.fill
+{
+position: absolute;
+left: 4%;
+right: 26.68%;
+top: 91.94%;
+bottom: 32.67%;
+
+}
+.point1{
+	width: 375px;
+    height: 49px;
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 64px;
+	margin-left:56px;
+	color: #565656;
+/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.asset1
+{
+
+width: 104.7px;
+height: 96.72px;
+margin-left: 403px;
+margin-top: -36px;
+}
+.asset2
+{
+
+width: 104.7px;
+height: 96.72px;
+margin-left: -49px;
+margin-top: 28px;
+}

@@ -1,0 +1,115 @@
+/* Reset defaults */
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header container */
+.header {
+    padding: 1rem 8%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Logo styling */
+.header .logo a {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header .logo i {
+    color: #27ae60; /* Heartbeat icon color */
+    font-size: 1.8rem;
+}
+
+/* Navbar list (horizontal) */
+.header .navbar ul {
+    display: flex;
+    flex-direction: row; /* Now horizontal */
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.header .navbar ul li {
+    /*position: relative;*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    font-size: 1.6rem;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #2D89FF;;
+}
+
+/* Dropdown menu */
+.navbar .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    min-width: 180px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    z-index: 2000;
+}
+
+.navbar .dropdown-menu li {
+    display: block;
+}
+
+.navbar .dropdown-menu li a {
+    display: block;
+    padding: 10px 16px;
+    font-size: 1.4rem;
+    color: #333;
+    transition: background 0.3s ease;
+}
+
+.navbar .dropdown-menu li a:hover {
+    background: #f5f5f5;
+}
+
+/* Show dropdown on hover */
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
